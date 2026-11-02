@@ -51,24 +51,37 @@ Week 6	Test the website, fix errors, and submit the project.
 <img width="890" height="1066" alt="image" src="https://github.com/user-attachments/assets/ac489afd-9419-4384-b93a-362598dab3a5" />
 
 ## Changelog
-Version 1.1
 
-* Re-edited the website goals and objectives.
-* Changed the numbering of the proposal sections.
-* Updated the target audience.
-* Revised the website features and functionality.
-* Changed the proposed colour scheme.
-* Updated the project timeline.
+### Unreleased
 
-Version 1.2
+#### Added
 
-* Corrected grammatical errors.
-* Reorganised some of the website pages.
-* Updated the budget estimates.
-* Added additional references.
-* Made final changes to the proposal formatting.
+- Added a Contact form for general messages, including contact details, message type, and a full message.
+- Added an Enquiry form for service requests, including service type, preferred date, guest count, and request details.
+- Added client-side form validation using required fields and input formats.
+- Added AJAX form submission through FormSubmit, with success and error messages shown on the page.
+- Kept the Contact and Enquiry forms separate because they serve different purposes.
+
+#### Changed
+
+- Combined the site’s JavaScript interactions and form handling into one shared `js/site.js` file.
+- Loaded jQuery before `site.js` on pages that use the interactive features.
+
+#### Form submission check
+
+- Submitted test messages through both forms and confirmed they work.
+- Activated the recipient email address with FormSubmit.
+- Enquiry confirmation tells visitors that the team will follow up about availability and pricing.
 
   ## References
-* MDN Web Docs (n.d.) HTML: HyperText Markup Language. Available at: MDN Web Docs – HTML⁠ (Accessed: 14 August 2026).
-* W3Schools (n.d.) HTML Tutorial. Available at: W3Schools – HTML Tutorial⁠ (Accessed: 14 August 2026).
-* Psalm Coffee (2026) Business information and website content. Information provided directly by Psalm Coffee.
+Google. n.d. Build and submit a sitemap. Available: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap Accessed: 31 October 2026
+
+Google. n.d. How Google interprets the robots.txt specification. Available: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec Accessed: 31 October 2026
+
+jQuery. n.d. jQuery CDN. Available: https://releases.jquery.com/ Accessed: 1 November 2026
+
+MDN Web Docs. n.d. Content Security Policy (CSP) implementation. Available: https://developer.mozilla.org/en-US/docs/Web/Security/Practical_implementation_guides/CSP Accessed: 1 November 2026
+
+MDN Web Docs. n.d. Using HTML form validation and the Constraint Validation API. Available: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation Accessed: 2 November 2026
+
+web.dev. n.d. Lazy load images and iframe elements. Available: https://web.dev/learn/performance/lazy-load-images-and-iframe-elements Accessed: 2 November 2026
