@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact | psalm coffee</title>
+    <meta name="description"
+          content="Make an enquiry about Psalm Coffee venue hire, Bible studies, business meetings, small celebrations and other services in Pretoria.">
+
+    <meta name="keywords"
+          content="Psalm Coffee enquiry, venue hire Pretoria, coffee shop enquiries, Bible study bookings, business meeting venue">
+
+    <meta name="author" content="Psalm Coffee">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <!--Header-->
+     <header>
+        <div class="logo">
+        <img src="_images/logo.jpeg" alt="Psalm Coffee Logo" width="150" height="150">
+    </div>
+        <h1>Psalm Coffee</h1>
+        <p>Coffee • Faith • Community</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="services.html">Services</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
+     </header>
+
+     <hr>
+     
+     <h1>We're here to help</h1>
+    <p>
+Whether you have a question about our menu, services, venue hire or anything else, feel free to contact us.
+<br>
+Our team will respond as soon as possible.
+     </P>
+    <h1>Request a quote / enquiry</h1>
+    
+<form method="post">
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname"
+           placeholder="Enter your full name"
+           required minlength="3" maxlength="50">
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"
+           placeholder="Enter your email address"
+           required>
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"
+           placeholder="e.g. 0843519123"
+           pattern="0[0-9]{9}"
+           title="Enter a valid 10-digit South African phone number"
+           required>
+    <br><br>
+
+    <label for="enquiryType">Type of Enquiry:</label>
+    <select id="enquiryType" name="enquiryType" required>
+        <option value="">-- Select Enquiry Type --</option>
+        <option value="Products">Products</option>
+        <option value="Services">Services</option>
+        <option value="Volunteering">Volunteering</option>
+        <option value="Sponsorship">Sponsorship</option>
+    </select>
+    <br><br>
+
+    <label for="service">Service Required:</label>
+    <select id="service" name="service" required>
+        <option value="">-- Select a Service --</option>
+        <option value="Venue hire">Venue hire</option>
+        <option value="Bible study">Bible study</option>
+        <option value="Business meeting">Business meeting</option>
+        <option value="Small celebration">Small celebration</option>
+        <option value="Prayer meeting">Prayer meeting</option>
+        <option value="Bible launch">Bible launch</option>
+    </select>
+    <br><br>
+
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message" name="message"
+              rows="8" cols="50"
+              placeholder="Tell us more about your enquiry..."
+              required minlength="10" maxlength="500"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit Enquiry">
+<p id="responseMessage"></p>
+</form>
+
+<hr>
+
+
+      <!-- Footer -->
+    <footer>
+        <h3>Psalm Coffee</h3>
+        <p>Coffee • Faith • Community</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="services.html">Services</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
+
+         <p>
+            622-124 Breed Street, Montana Park, Pretoria, 0186 |
+            084 351 9123 |
+            odette.krige@gmail.com
+        </p>
+
+        <p>
+            Facebook: Psalm Coffee Shop |
+            Instagram: @psalm_coffee_shop
+        </p>
+
+        <p>&copy; 2026 Psalm Coffee. All Rights Reserved.</p>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
